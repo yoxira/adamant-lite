@@ -1,0 +1,22 @@
+{
+  "name": "adamant-lite",
+  "version": "0.0.1",
+  "description": "Lite version of ADAMANT Node",
+  "main": "blockchain.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoxira/adamant-lite.git"
+  },
+  "keywords": [
+    "ADAMANT"
+  ],
+  "author": "yoxira!",
+  "bugs": {
+    "url": "https://github.com/yoxira/adamant-lite/issues"
+  },
+  "homepage": "https://github.com/yoxira/adamant-lite#readme"
+}
