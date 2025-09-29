@@ -1,5 +1,6 @@
 import { config } from './config.js';
 import { Peers } from './peers/discovery.js';
+import { HandshakeHeaders } from './peers/headers.js';
 
 start();
 
@@ -10,8 +11,10 @@ async function start() {
     version: config.version,
   };
 
+  HandshakeHeaders.setHeaders(headers);
+
   const peers = new Peers(config.peers);
-  const discoveredPeers = await peers.discover({ headers });
+  const discoveredPeers = await peers.discover();
 
   console.log(discoveredPeers);
 }

@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/yoxira/adamant-lite/issues"
   },
-  "homepage": "https://github.com/yoxira/adamant-lite#readme"
+  "homepage": "https://github.com/yoxira/adamant-lite#readme",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  }
 }
